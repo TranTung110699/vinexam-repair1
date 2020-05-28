@@ -1,0 +1,61 @@
+
+.subme{
+    background-color: lightgrey;
+    color: black;
+    margin-top: 1.8rem;
+
+}
+
+.iconme{
+    font-size: 16px;
+    color: black;
+}
+
+.spanme{
+    color: darkslategrey;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.itemme{
+    font-size: 15px;
+}
+
+.subme:hover,
+.subme:active{
+    background-color: wheat;
+    color: #cc1818;
+
+}
+
+.subme:hover a,
+.subme:active a{
+    text-decoration: none;
+}
+
+.subme:hover .iconme,
+.subme:active .iconme{
+    color: #cc1818;
+
+}
+
+.subme:hover .spanme,
+.subme:active .spanme{
+    color: #cc1818;
+}
+
+.itemme:hover,
+.itemme:active{
+    background-color: #bce8f1;
+    border-right: 3px solid #2aabd2;
+}
+
+.itemme:hover,
+.itemme:active{
+    background-color: #bce8f1;
+    border-right: 3px solid #2aabd2;
+}
+.itemme:hover a,
+.itemme:active a{
+    text-decoration: none;
+}

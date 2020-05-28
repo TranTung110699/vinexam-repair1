@@ -1,0 +1,22 @@
+.toggle-btn{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 85px;
+    background:transparent;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #cc1818;
+    color: white;
+    font-weight: bold;
+}
+
+.toggle-btn:focus{
+    outline: none;
+}
+
+.toggle-btn:hover{
+
+    color: #9acfea;
+}

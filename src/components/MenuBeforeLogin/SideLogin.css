@@ -1,0 +1,45 @@
+.side-login{
+    width: 100%;
+    height: 100%;
+    background: none;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    max-height: 500px;
+    z-index: 150;
+    top: 100px;
+    justify-items: center;
+}
+
+.side-login{
+    transform: translateY(-200%);
+    transition: transform 0.5s ease-out;
+}
+
+.side-login.open{
+    transform: translateY(0);
+
+}
+
+
+
+/*@media only screen and (max-width: 992px) {*/
+
+
+/*}*/
+
+/*@media only screen and (max-width: 768px) {*/
+
+/*    .side-drawer{*/
+/*        transform: translateX(-100%);*/
+/*        transition: transform 0.3s ease-out;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (max-width: 576px) {*/
+
+/*    .side-drawer{*/
+/*        transform: translateX(-100%);*/
+/*        transition: transform 0.3s ease-out;*/
+/*    }*/
+/*}*/
+
